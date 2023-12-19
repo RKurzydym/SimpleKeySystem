@@ -89,5 +89,5 @@ async def addCard(uid, person,tag):
     return "Added"
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True,host='::',port=5000)
   #04 49 2e 42 d0 76 80
